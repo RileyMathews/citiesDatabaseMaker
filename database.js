@@ -2,7 +2,7 @@ const database = {}
 
 database.cities = []
 
-// citties will be: venice 2008, paris 2011, rome 2008, new york 2007, Port Lockroy 2010, san antonio 2011
+// citties will be: venice 2008, rome 2008, new york 2007, Port Lockroy 2010, san antonio 2011
 
 database.cities.push(
     {
@@ -34,18 +34,18 @@ database.cities.push(
         attractions: ["Edinburgh Castle", "Holyrood Park", "The Elephant House", "Grayfriers Kirk", "North Bridge"]
     },
     {
-        name: "Dublin",
-        visited: "2012",
+        name: "Paris",
+        visited: "2011",
         continent: "europe",
-        image: "",
-        attractions: []
+        image: "https://lifehacker.com/the-best-paris-tips-from-our-readers-1823596244",
+        attractions: ["Eiffel Tower", "The Louvre", "Notre-Dame", "Palace of Versailles", "Arc de Triomphe"]
     },
     {
-        name: "Dublin",
-        visited: "2012",
-        continent: "europe",
-        image: "",
-        attractions: []
+        name: "San Antonio",
+        visited: "2011",
+        continent: "north america",
+        image: "http://sanantonio.culturemap.com/news/city-life/09-14-17-best-texas-metro-area-for-millennials/",
+        attractions: ["The Alamo", "River Walk", "Natural Bridge Caverns", "San Antonio Zoo", "Brackenridge Park"]
     },
     {
         name: "Dublin",
