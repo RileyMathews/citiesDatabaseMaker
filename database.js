@@ -15,7 +15,7 @@ database.cities.push(
         name: "London",
         visited: "2013",
         continent: "europe",
-        image: "https://www.pexels.com/search/london/",
+        image: "https://cdn.londonandpartners.com/assets/73295-640x360-london-skyline-ns.jpg",
         attractions: ["Buckingham Palace", "Hard Rock Cafe Vault", "Abbey Road Studio", "London Eye", "Royal Philharmonic Orchestra"]
     },
     {
