@@ -2,7 +2,6 @@ const database = {}
 
 database.cities = []
 
-// citties will be: venice 2008, rome 2008, new york 2007, Port Lockroy 2010, san antonio 2011
 
 database.cities.push(
     {
@@ -30,49 +29,52 @@ database.cities.push(
         name: "Edinburgh",
         visited: "2012",
         continent: "europe",
-        image: "https://www.edinburghchamber.co.uk/",
+        image: "http://edinburgh.org/media/1020/Carlton-Hill-view.jpg",
         attractions: ["Edinburgh Castle", "Holyrood Park", "The Elephant House", "Grayfriers Kirk", "North Bridge"]
     },
     {
         name: "Paris",
         visited: "2011",
         continent: "europe",
-        image: "https://lifehacker.com/the-best-paris-tips-from-our-readers-1823596244",
+        image: "https://lonelyplanetimages.imgix.net/mastheads/GettyImages-500759045_super.jpg?sharp=10&vib=20&w=1200",
         attractions: ["Eiffel Tower", "The Louvre", "Notre-Dame", "Palace of Versailles", "Arc de Triomphe"]
     },
     {
         name: "San Antonio",
         visited: "2011",
         continent: "north america",
-        image: "http://sanantonio.culturemap.com/news/city-life/09-14-17-best-texas-metro-area-for-millennials/",
+        image: "http://media.culturemap.com/crop/07/11/633x475/San-Antonio-downtown-skyline-skyscrapers_154405.jpg",
         attractions: ["The Alamo", "River Walk", "Natural Bridge Caverns", "San Antonio Zoo", "Brackenridge Park"]
     },
     {
-        name: "Dublin",
-        visited: "2012",
-        continent: "europe",
-        image: "",
-        attractions: []
+        name: "Port Lockroy",
+        visited: "2010",
+        continent: "antarctica",
+        image: "https://www.telegraph.co.uk/content/dam/news/2017/02/18/JS121045603_trans_NvBQzQNjv4BqqVzuuqpFlyLIwiB6NTmJwfSVWeZ_vEN7c6bHu2jJnT8.jpg?imwidth=450",
+        attractions: ["Penguins", "The cool refreshing beaches", "Seals", "Whales", "More Penguins"]
     },
     {
-        name: "Dublin",
-        visited: "2012",
+        name: "Venice",
+        visited: "2008",
         continent: "europe",
-        image: "",
-        attractions: []
+        image: "https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/Italy/Venice/Venice-xlarge.jpg",
+        attractions: ["Piazza San Marco", "Saint Mark's Basilica", "Dodge's Palace", "Grand Canal", "Rialto Bridge"]
     },
     {
-        name: "Dublin",
-        visited: "2012",
+        name: "Rome",
+        visited: "2008",
         continent: "europe",
-        image: "",
-        attractions: []
+        image: "https://d3jkudlc7u70kh.cloudfront.net/rome-fact.jpg",
+        attractions: ["The Colosseum", "St. Peters Basilica", "Trevi Fountain", "Sistine Chapel", "Roman Forum"]
     },
     {
-        name: "Dublin",
-        visited: "2012",
-        continent: "europe",
-        image: "",
-        attractions: []
+        name: "New York City",
+        visited: "2007",
+        continent: "north america",
+        image: "https://travel.usnews.com/static-travel/images/destinations/44/empire_state_building_getty_zsolt_hlinka.jpg",
+        attractions: ["The Empire State Building", "Central Park", "Broadway", "Statue of Liberty", "Times Square"]
     },
 )
+
+
+localStorage.setItem("CitiesDatabase", JSON.stringify(database))
